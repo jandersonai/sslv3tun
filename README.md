@@ -1,4 +1,4 @@
-# stunnel Docker Container
+# sslv3tun
 
 This repository contains the Docker configuration for building and running an `stunnel` container that proxies modern encrypted connections to a server using SSLv3. The container is built in two stages: the first stage compiles OpenSSL and stunnel with SSLv3 support, and the second stage creates a minimal runtime environment.
 
